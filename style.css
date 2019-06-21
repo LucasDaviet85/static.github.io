@@ -1,186 +1,177 @@
-<!DOCTYPE html>
-<html>
-<head>
-  <meta charset="utf-8">
-  <title> EQUIPE DE FRANCE 2018</title>
+body {
+  background: black
+  font-family: 'Didact Gothic', sans-serif;
+  text-align: center;
+}
 
-<link href="https://fonts.googleapis.com/css?family=Abril+Fatface|Anton|Didact+Gothic" rel="stylesheet">
-<link href="https://fonts.googleapis.com/css?family=Didact+Gothic" rel="stylesheet">
-<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css" integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous">
-<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-<link href="https://fonts.googleapis.com/css?family=Oswald&display=swap" rel="stylesheet">
-<link rel="stylesheet" type="text/css" href="style.css">
+.navbarfont {
+  display: flex;
+  width: 100%;
+  background: white;
+  height: 150px;
+}
 
+.banner {
+  background-size: cover;
+  background-position: center;
+  padding: 150px 0;
+}
 
-</head>
+.banner h1 {
+  margin: 0;
+  color: white;
+  text-shadow: 1px 1px 3px rgba(0,0,0,0.2);
+  font-size: 32px;
+  font-weight: bold;
+}
 
+.banner p {
+  font-size: 20px;
+  color: white;
+  opacity: .7;
+  text-shadow: 1px 1px 3px rgba(0,0,0,0.2)
+}
 
-<body>
+h1{
+  color: black;
+  font-family: 'Abril Fatface', cursive;
+  font-size: 50px;
 
-<div class="navbar">
-  <img class="logo" src="images/logo.jpg" width="200">
-  <div class="links">
-    <a href=""  class="link"> Vidéo </a>
-    <a href=""  class="link">La liste des 23</a>
-    <a href=""  class="link"> résumé de la finale</a>
-    <a href=""  class="link">Interview</a>
-    <a href=""  class="link">Contact</a>
-    <a href=""  class="link">FAQ</a>
-  </div>
-</div>
+}
+h2{
+  color: white;
+  background: blue;
+  width: 400px;
+font-family: 'Oswald', sans-serif;}
+h3{
+  color: red;
+  font-size: 30px;
+  font-weight: bold;
+  font-family: 'Anton', sans-serif;
+}
 
-<div class="navbarfond"></div>
-
-<div class="banner" style="background-image: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)), url(images/teamfoot.jpg);">
-    <div class="container">
-      <h1>EQUIPE DE FRANCE <STRONG></STRONG></h1>
-      <p>Champion du monde 2018</p>
-    </div>
-</div>
-
-<br>
-<br>
-
-<iframe width="560" height="315" src="https://www.youtube.com/embed/GrsEAvRerTg" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-
-<br>
-<!-- Button trigger modal -->
-<button type="button" class="btn btn-danger" data-toggle="modal" data-target="#exampleModal">
-  LA FINALE 
-</button>
-
-
-
-<!-- Modal -->
-<div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
-  <div class="modal-dialog" role="document">
-    <div class="modal-content">
-      <div class="modal-header">
-        <h5 class="modal-title" id="exampleModalLabel">MOSCOU JUILLET</h5>
-        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-          <span aria-hidden="true">&times;</span>
-        </button>
-      </div>
-      <div class="modal-body">
-        RESULTAT FINALE : FRANCE 4 / CROATIE 2 ! 
-      </div>
-      <div class="modal-footer">
-        <button type="button" class="btn btn-secondary" data-dismiss="modal">site</button>
-        <button type="button" class="btn btn-light">vidéo</button>
-      </div>
-    </div>
-  </div>
-</div>
-
-<br>
-<br>
-<br>
-<div class="doc">
-  
-  <div class="doc-text">
-    <h1> LA LISTE DES 23</h1> 
-    
-    <h2>La liste de Didier Deschamps</h2><i class="fas fa-trophy"></i>
-    <p class="p1">Gardiens : Alphone Areola (Paris St Germain), Hugo Lloris (Tottenham Hotspur), Steve Mandanda (Olympique de Marseille)
-Défenseurs : Lucas Hernandez (Atletico Madrid), Presnel Kimpembe (Paris St Germain), Benjamin Pavard (VfB Stuttgart), Benjamin Mendy (Manchester City), Djibril Sidibe (Monaco), Adil Rami (Olympique de Marseille), Samuel Umtiti (Barcelona), Raphael Varane (Real Madrid)
-
-Milieux de terrain : Blaise Matuidi (Juventus), N'Golo Kante (Chelsea), Steven N'Zonzi (Sevilla), Paul Pogba (Manchester United), Corentin Tolisso (Bayern Munich)
-
-Attaquants : Olivier Giroud (Chelsea), Antoine Griezmann (Atletico Madrid), Kylian Mbappe (Paris St Germain), Thomas Lemar (Monaco), Nabil Fekir (Olympique Lyonnais), Florian Thauvin (Olympique de Marseille), Ousmane Dembele (Barcelona) </p>
-  </div>
-</div>
-
-<br>
-<br>
-<h3>Résumé de la finale </h3>
-La finale de la Coupe du monde de football 2018 est le match de football concluant la 21e Coupe du monde, organisée en Russie. Elle a eu lieu le 15 juillet 2018 au stade Loujniki de Moscou, à 18 h heure locale (17 heures heure française)
-
-Elle oppose l'équipe de France à celle de Croatie et voit la victoire française 4 buts à 2. Lors de la première mi-temps, Mario Mandžukić marque contre son camp de la tête sur un coup-franc tiré par Antoine Griezmann, avant que son coéquipier Ivan Perišić n'obtienne l'égalisation. La France reprend l'avantage sur un penalty transformé par Griezmann et mène deux buts à un à la pause. En deuxième période, et en l'espace de six minutes, Paul Pogba et Kylian Mbappé sont les auteurs de tirs victorieux pour porter le score à 4-1, que Mandžukić réduit ensuite, profitant d'une erreur d'Hugo Lloris.
-
-La France est la première équipe à marquer quatre buts en finale depuis le Brésil en 1970 et remporte une deuxième étoile après sa victoire en 1998. Antoine Griezmann est désigné « homme du match » après la finale, alors que la FIFA honore Luka Modrić comme meilleur joueur de la compétition, et Kylian Mbappé comme meilleur jeune joueur. Didier Deschamps devient pour sa part le troisième footballeur après Mario Zagallo et Franz Beckenbauer à avoir gagné le trophée comme joueur puis comme sélectionneur.
-
-<br>
-<br>
-</br>
-
-<h4>Interview MBAPPÉ</h4>
-    <ul>Pour Kylian Mbappé, le pire moment de la Coupe du monde a eu lieu… après la victoire en finale. "Ça peut choquer les gens mais c’est vrai. T’attends 25 minutes pour soulever la coupe. Et toi, tu ne penses qu’à ça. A profiter avec les copains, avec le groupe, les familles. Cela fait 56 jours qu’on est ensemble. On a vomi à la prépa. On a sué en phase de poules. On est passé dans tous les états au moment des matchs à élimination directe. Et là, on attend trop."
-
-Après la remise de la coupe, les Bleus fêtent la victoire dans les vestiaires et dans le car qui rentre à l’hôtel : "D’habitude dans le football, c’est vraiment carré. Du 1er janvier au 31 décembre, t’as la même place [dans le car] et tu restes assis. Après la victoire en Coupe du monde, tu voyais l’intendant qui était à la place de Varane ou l’entraîneur adjoint qui était à la place du capitaine. Moi j’étais à côté du coach au premier rang. On discutait. Il me montrait les textos qu’il avait reçu. C’était le bazar complet mais c’était franchement bien", en rigole encore Kylian Mbappé.
-
-
-  
-
-<a href="https://www.fff.fr" target="-blank">Site FFF</a>
-<div class="box-blue">
-  <div class="box-blue"></div>
-  <div class="box-white"></div> 
-  <div class="box-red"></div> 
-</div>
-
-<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d71824.76746657389!2d37.52077451469646!3d55.7667708897532!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x46b54b8719336f0f%3A0x65b83e6741430782!2sComplexe+olympique+Loujniki!5e0!3m2!1sfr!2sfr!4v1561051714332!5m2!1sfr!2sfr" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
-
-<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
-<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
-
-<!-- Begin Mailchimp Signup Form -->
-<link href="https://cdn-images.mailchimp.com/embedcode/classic-10_7.css" rel="stylesheet" type="text/css">
-<style type="text/css">
-  #mc_embed_signup{background:#fff; clear:left; font:14px Helvetica,Arial,sans-serif; }
-  /* Add your own Mailchimp form style overrides in your site stylesheet or in this style block.
-     We recommend moving this block and the preceding CSS link to the HEAD of your HTML file. */
-</style>
-<div id="mc_embed_signup">
-<form action="https://efap.us20.list-manage.com/subscribe/post?u=f6dee8b252dec88a1ba512d78&amp;id=417d533bc6" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
-    <div id="mc_embed_signup_scroll">
-  <h2>Subscribe</h2>
-<div class="indicates-required"><span class="asterisk">*</span> indicates required</div>
-<div class="mc-field-group">
-  <label for="mce-EMAIL">Email Address  <span class="asterisk">*</span>
-</label>
-  <input type="email" value="" name="EMAIL" class="required email" id="mce-EMAIL">
-</div>
-<div class="mc-field-group">
-  <label for="mce-FNAME">First Name </label>
-  <input type="text" value="" name="FNAME" class="" id="mce-FNAME">
-</div>
-<div class="mc-field-group">
-  <label for="mce-LNAME">Last Name </label>
-  <input type="text" value="" name="LNAME" class="" id="mce-LNAME">
-</div>
-<div class="mc-field-group size1of2">
-  <label for="mce-BIRTHDAY-month">Birthday </label>
-  <div class="datefield">
-    <span class="subfield monthfield"><input class="birthday " type="text" pattern="[0-9]*" value="" placeholder="MM" size="2" maxlength="2" name="BIRTHDAY[month]" id="mce-BIRTHDAY-month"></span> / 
-    <span class="subfield dayfield"><input class="birthday " type="text" pattern="[0-9]*" value="" placeholder="DD" size="2" maxlength="2" name="BIRTHDAY[day]" id="mce-BIRTHDAY-day"></span> 
-    <span class="small-meta nowrap">( mm / dd )</span>
-  </div>
-</div>  <div id="mce-responses" class="clear">
-    <div class="response" id="mce-error-response" style="display:none"></div>
-    <div class="response" id="mce-success-response" style="display:none"></div>
-  </div>    <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
-    <div style="position: absolute; left: -5000px;" aria-hidden="true"><input type="text" name="b_f6dee8b252dec88a1ba512d78_417d533bc6" tabindex="-1" value=""></div>
-    <div class="clear"><input type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe" class="button"></div>
-    </div>
-</form>
-</div>
-<script type='text/javascript' src='//s3.amazonaws.com/downloads.mailchimp.com/js/mc-validate.js'></script><script type='text/javascript'>(function($) {window.fnames = new Array(); window.ftypes = new Array();fnames[0]='EMAIL';ftypes[0]='email';fnames[1]='FNAME';ftypes[1]='text';fnames[2]='LNAME';ftypes[2]='text';fnames[3]='ADDRESS';ftypes[3]='address';fnames[4]='PHONE';ftypes[4]='phone';fnames[5]='BIRTHDAY';ftypes[5]='birthday';}(jQuery));var $mcj = jQuery.noConflict(true);</script>
-<!--End mc_embed_signup-->
+h4{
+  color: red;
+  font-size: 30px;
+  font-family: 'Anton', sans-serif;
+}
+p{
+  font-size: 18px;
+}
+.p1{
+  color: black;
+}
+ul{
+  color: red;
+}
+.cadre{
+  background: white;
+  border: 2px solid white;
+  margin: 20px;
+  padding:5px;
+  border-radius: 10px;
+}
+a{
+  text-decoration: none;
+  color: red;
+  background: white;
+  background-position: center;
+}
+a:hover{
+  background:red;
+  background-position: center;
+}
+.logo{
+  width :100px;
+  height:100px;
+  object-fit: cover;
+  border-radius: 300px;
+  box-shadow: 6px 6px 10px red;
+}
+.box-blue{
+  height: 600px;
+  width: 100%;
+  background: #blue;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.box-blue{
+  height: 150px;
+  width: 90px;
+  background: blue;
+}
+.box-white{
+  height: 150px;
+  width: 90px;
+  background: white;
+}
+.box-red{
+  height: 150px;
+  width: 90px;
+  background: red;
+}
+.logo{
+  height: 85px;
+}
+.navbar{
+  background: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 100px;
+  position : fixed;
+  width: 100%;
+}
+.links{
+  width: 50%;
+  display: flex;
+  justify-content: space-around;
+}
+.link{
+  background: white;
+  color: blue;
+}
+.doc{
+  display: flex;
+  background: blue;
+  justify-content: space-between;
+  align-items: center;
+}
+.doc-text{
+  background: white;
+  border: 50px solid red;
+}
+.bar{
+  border: 30px solid blue;
 
 
-<div class="footer"> 
-  <div class="footer-links">
-    <a href="#"><i class="fab fa-github"></i></a>
-    <a href="#"><i class="fab fa-instagram"></i></a>
-    <a href="#"><i class="fab fa-facebook"></i></a>
-    <a href="#"><i class="fab fa-twitter"></i></a>
-    <a href="#"><i class="fab fa-linkedin"></i></a>
-  </div>
-  <div class="footer-copyright">
-    MERCI LES BLEUS <i class="fas fa-heart"></i> 
-  </div>
-</div>
 
-</body>
-</html>
+.footer {
+  background: red;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 100px;
+  padding: 0px 50px;
+  color: rgba(0,0,0,0.3);
+}
+.footer-links {
+  display: flex;
+  align-items: center;
+}
+.footer-links a {
+  color: black;
+  opacity: 0.15;
+  text-decoration: none;
+  font-size: 24px;
+  padding: 0px 10px;
+}
+.footer-links a:hover {
+  opacity: 1;
+}
+.footer .fa-heart {
+  color: red;
+}
+
+}
